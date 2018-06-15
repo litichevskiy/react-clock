@@ -1,0 +1,27 @@
+.container_clock{
+    padding: 0.5em;
+    margin: 0 1.3em;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+
+    .name_city{
+        margin-bottom: 8px;
+        font-size: 1.1em;
+    }
+
+    .date{
+        font-size: 0.8em;
+        margin-top: 15px;
+    }
+}

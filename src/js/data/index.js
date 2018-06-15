@@ -1,0 +1,48 @@
+const LIST_CLOCKS = [
+    {
+        name: 'New_York',
+        timeZone : 'America/New_York',
+        isSecond: true,
+        width: '170px',
+        height: '170px',
+        bgClock: '#827b7b',
+        bgHours: '#4d3939',
+        bgMinutes: '#4d3939',
+        bgSeconds: 'tomato',
+    },
+    {
+        name: 'Tokyo',
+        timeZone : 'Asia/Tokyo',
+        isSecond: true,
+        width: '170px',
+        height: '170px',
+        bgClock: '#827b7b',
+        bgHours: '#4d3939',
+        bgMinutes: '#4d3939',
+        bgSeconds: 'tomato',
+    },
+    {
+        name: 'Sydney',
+        timeZone : 'Australia/Sydney',
+        isSecond: false,
+        width: '170px',
+        height: '170px',
+        bgClock: '#827b7b',
+        bgHours: '#4d3939',
+        bgMinutes: '#4d3939',
+        bgSeconds: 'tomato',
+    },
+    {
+        name: 'Kolkata',
+        timeZone : 'Asia/Kolkata',
+        isSecond: true,
+        width: '170px',
+        height: '170px',
+        bgClock: '#827b7b',
+        bgHours: '#4d3939',
+        bgMinutes: '#4d3939',
+        bgSeconds: 'tomato',
+    },
+];
+
+export default LIST_CLOCKS;
